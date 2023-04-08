@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+    <title>Eh 5</title>
+
+</head>
+
+<body>
+	
+	<script>
+		let str = 'hdfgv';
+		document.write(str[0] + str[1] + str[4]);
+	</script>
+		</br>
+	
+	<script>
+		document.write(60*60);
+	</script>
+	</br>
+	
+	<script>
+		var num = 1;
+		num +=12;
+		num -= 14;
+		num *= 5;
+		num /= 7;
+		num++;
+		num--;
+		alert(num);
+	</script>
+
+	</br>
+		
+	<script>
+		let num = 3;
+		alert(num);
+	</script>
+
+	</br>
+
+	<script>
+		let a = 10;
+		let b = 2;
+		document.writeln("Сумма:" + (a+b));
+		document.writeln("Разность:" + (a-b));
+		document.writeln("Произведение:" + (a*b));
+		document.writeln("Частное:" + (a/b));
+	</script>
+
+	</br>
+
+	<script>
+		let c = 15;
+		let d = 2;
+		let result = c + d;
+		document.writeln("Результат:" + (c+d));
+	</script>
+
+	</br>
+
+	<script>
+		a=10;
+		b=2;
+		c=5;
+		document.writeln("Сумма:" + (a+b+c));
+	</script>
+
+	</br>
+
+	<script>
+		a=17;
+		b=10;
+		c=a-b;
+		d=7;
+		result=c+d
+		document.writeln("result:" + (result));
+	</script>
+
+	</br>
+
+	<script>
+		var ch = 60;
+		var sut = 24;
+		var month = 31;
+		document.writeln("Час:" + (ch*60));
+		document.writeln("Сутки:" + (sut*ch*60));
+		document.writeln("Месяц:" + (month*sut*ch*60));
+	</script>
+
+	</br>
+
+	<script>
+		let date = new Date();
+		let hour = date.getHours();
+		let min = date.getMinutes();
+		let sec = date.getSeconds();
+		document.writeln(hour +":"+ min +":"+ sec);
+	</script>
+
+	</br>
+
+	<script>
+		let test1 = 5;
+		document.writeln(Math.pow(test1,2));
+	</script>
+
+	</br>
+
+	<script>
+		let arr = [1,2,3,4,5,6,7,8,9,10];
+		for(let i=0,r=0;i<arr.length; i++,r = arr[i]%2==0?r+Math.pow(arr[i],2):r+0,document.writeln(r));
+	</script>
+
+	</br>
+
+	<script>
+		let apple = 1.15;
+		let orange = 2.30;
+		document.writeln(apple+orange);
+	</script>
+
+	</br>
+
+	<script>
+		let x = 5;
+		alert(x++);
+	</script>
+
+	</br>
+
+	<script>
+		document.writeln([]+false-null+true);
+	</script>
+
+</body>
+
+</html>
