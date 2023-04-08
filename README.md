@@ -16,7 +16,6 @@
 
 
 ```html
-<pre>
   <!DOCTYPE html>
   <html lang="ru">
 
